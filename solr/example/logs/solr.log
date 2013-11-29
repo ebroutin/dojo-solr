@@ -1,0 +1,1204 @@
+INFO  - 2013-11-29 17:58:45.716; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 17:58:45.763; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 17:58:45.772; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 17:58:45.835; org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/var/www/dojo-solr/solr/example/webapps/solr.war!/ to /var/www/dojo-solr/solr/example/solr-webapp/webapp
+INFO  - 2013-11-29 17:58:47.417; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 17:58:47.466; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 17:58:47.482; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 17:58:47.482; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: .
+INFO  - 2013-11-29 17:58:47.483; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './'
+INFO  - 2013-11-29 17:58:47.485; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-servlet-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.486; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-xml-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.486; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-http-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.486; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-continuation-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.487; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/servlet-api-3.0.jar' to classloader
+INFO  - 2013-11-29 17:58:47.487; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-server-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.488; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-webapp-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.490; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-jmx-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.491; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-security-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.491; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/ext/' to classloader
+INFO  - 2013-11-29 17:58:47.491; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-io-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.491; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-util-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.492; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-deploy-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:58:47.637; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/./solr.xml
+INFO  - 2013-11-29 17:58:47.644; org.apache.solr.core.ConfigSolr; /var/www/dojo-solr/solr/example/./solr.xml does not exist, using default configuration
+INFO  - 2013-11-29 17:58:47.783; org.apache.solr.core.CoreContainer; New CoreContainer 556472773
+INFO  - 2013-11-29 17:58:47.783; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=./]
+INFO  - 2013-11-29 17:58:47.798; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 17:58:47.799; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 17:58:47.799; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 17:58:47.799; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 17:58:47.799; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 17:58:47.799; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 17:58:47.800; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 17:58:47.800; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 17:58:47.800; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 17:58:48.060; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 17:58:48.061; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 17:58:48.127; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: ./collection1
+INFO  - 2013-11-29 17:58:48.128; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './collection1/'
+ERROR - 2013-11-29 17:58:48.149; org.apache.solr.core.CoreContainer; Failed to load file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+ERROR - 2013-11-29 17:58:48.151; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+ERROR - 2013-11-29 17:58:48.154; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	... 10 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 17:58:48.159; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 17:58:48.160; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 17:58:48.213; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2013-11-29 17:58:59.372; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2013-11-29 17:58:59.374; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 17:59:00.378; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=556472773
+INFO  - 2013-11-29 17:59:00.383; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 17:59:37.866; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 17:59:37.905; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 17:59:37.916; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 17:59:38.995; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 17:59:39.038; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 17:59:39.053; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 17:59:39.054; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: .
+INFO  - 2013-11-29 17:59:39.055; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './'
+INFO  - 2013-11-29 17:59:39.057; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-servlet-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.057; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-xml-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.057; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-http-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.057; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-continuation-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.058; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/servlet-api-3.0.jar' to classloader
+INFO  - 2013-11-29 17:59:39.058; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-server-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.058; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-webapp-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.059; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-jmx-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.061; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-security-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.061; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/ext/' to classloader
+INFO  - 2013-11-29 17:59:39.061; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-io-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.062; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-util-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.062; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-deploy-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 17:59:39.199; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/./solr.xml
+INFO  - 2013-11-29 17:59:39.207; org.apache.solr.core.ConfigSolr; /var/www/dojo-solr/solr/example/./solr.xml does not exist, using default configuration
+INFO  - 2013-11-29 17:59:39.329; org.apache.solr.core.CoreContainer; New CoreContainer 2093998153
+INFO  - 2013-11-29 17:59:39.329; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=./]
+INFO  - 2013-11-29 17:59:39.349; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 17:59:39.350; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 17:59:39.350; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 17:59:39.350; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 17:59:39.350; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 17:59:39.351; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 17:59:39.351; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 17:59:39.351; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 17:59:39.352; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 17:59:39.568; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 17:59:39.569; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 17:59:39.620; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: ./collection1
+INFO  - 2013-11-29 17:59:39.621; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './collection1/'
+ERROR - 2013-11-29 17:59:39.643; org.apache.solr.core.CoreContainer; Failed to load file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+ERROR - 2013-11-29 17:59:39.645; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+ERROR - 2013-11-29 17:59:39.648; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	... 10 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 17:59:39.650; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 17:59:39.650; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 17:59:39.678; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+ERROR - 2013-11-29 18:00:12.229; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:818)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:297)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:197)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 18:01:45.906; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:01:45.908; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:01:46.912; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2093998153
+INFO  - 2013-11-29 18:01:46.919; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:01:48.644; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 18:01:48.681; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 18:01:48.693; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 18:01:49.794; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 18:01:49.835; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 18:01:49.851; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 18:01:49.851; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: .
+INFO  - 2013-11-29 18:01:49.852; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './'
+INFO  - 2013-11-29 18:01:49.855; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-servlet-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.855; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-xml-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.856; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-http-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.856; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-continuation-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.856; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/servlet-api-3.0.jar' to classloader
+INFO  - 2013-11-29 18:01:49.856; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-server-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-webapp-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-jmx-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.859; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-security-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.859; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/ext/' to classloader
+INFO  - 2013-11-29 18:01:49.860; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-io-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.860; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-util-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:49.860; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-deploy-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:01:50.012; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/./solr.xml
+INFO  - 2013-11-29 18:01:50.026; org.apache.solr.core.ConfigSolr; /var/www/dojo-solr/solr/example/./solr.xml does not exist, using default configuration
+INFO  - 2013-11-29 18:01:50.150; org.apache.solr.core.CoreContainer; New CoreContainer 905154502
+INFO  - 2013-11-29 18:01:50.151; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=./]
+INFO  - 2013-11-29 18:01:50.170; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 18:01:50.170; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 18:01:50.170; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 18:01:50.171; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 18:01:50.171; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 18:01:50.171; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 18:01:50.172; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 18:01:50.172; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 18:01:50.172; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 18:01:50.400; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 18:01:50.401; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 18:01:50.451; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: ./collection1
+INFO  - 2013-11-29 18:01:50.452; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './collection1/'
+ERROR - 2013-11-29 18:01:50.471; org.apache.solr.core.CoreContainer; Failed to load file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+ERROR - 2013-11-29 18:01:50.474; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+ERROR - 2013-11-29 18:01:50.477; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	... 10 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 18:01:50.483; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:01:50.484; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 18:01:50.520; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+ERROR - 2013-11-29 18:01:52.736; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:818)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:297)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:197)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+ERROR - 2013-11-29 18:01:54.786; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:818)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:297)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:197)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 18:02:53.241; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:02:53.245; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:02:54.249; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=905154502
+INFO  - 2013-11-29 18:02:54.254; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:03:12.053; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 18:03:12.087; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 18:03:12.096; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 18:03:13.239; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 18:03:13.279; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 18:03:13.294; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 18:03:13.294; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: ./solr
+INFO  - 2013-11-29 18:03:13.295; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './solr/'
+INFO  - 2013-11-29 18:03:13.452; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/./solr/solr.xml
+INFO  - 2013-11-29 18:03:13.568; org.apache.solr.core.ConfigSolrXml; Config-defined core root directory: 
+INFO  - 2013-11-29 18:03:13.578; org.apache.solr.core.CoreContainer; New CoreContainer 1629818866
+INFO  - 2013-11-29 18:03:13.578; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=./solr/]
+INFO  - 2013-11-29 18:03:13.593; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 18:03:13.593; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 18:03:13.593; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 18:03:13.594; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 18:03:13.596; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 18:03:13.597; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 18:03:13.597; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 18:03:13.597; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 18:03:13.598; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 18:03:13.818; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 18:03:13.819; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 18:03:13.858; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /var/www/dojo-solr/solr/example/./solr
+INFO  - 2013-11-29 18:03:13.875; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /var/www/dojo-solr/solr/example/./solr/collection1/
+INFO  - 2013-11-29 18:03:13.876; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2013-11-29 18:03:13.878; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /var/www/dojo-solr/solr/example/./solr/collection1
+INFO  - 2013-11-29 18:03:13.878; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/./solr/collection1/'
+INFO  - 2013-11-29 18:03:13.959; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2013-11-29 18:03:13.961; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.962; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.962; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/fontbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.962; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2013-11-29 18:03:13.962; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/commons-compress-1.4.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.962; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tika-core-1.4.jar' to classloader
+INFO  - 2013-11-29 18:03:13.963; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/icu4j-49.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.963; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-3.9.jar' to classloader
+INFO  - 2013-11-29 18:03:13.963; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.963; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.963; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-scratchpad-3.9.jar' to classloader
+INFO  - 2013-11-29 18:03:13.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tika-parsers-1.4.jar' to classloader
+INFO  - 2013-11-29 18:03:13.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2013-11-29 18:03:13.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/pdfbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2013-11-29 18:03:13.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xmlbeans-2.3.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.965; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2013-11-29 18:03:13.965; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/jempbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.965; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.965; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/netcdf-4.2-min.jar' to classloader
+INFO  - 2013-11-29 18:03:13.966; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2013-11-29 18:03:13.966; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.966; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-ooxml-schemas-3.9.jar' to classloader
+INFO  - 2013-11-29 18:03:13.967; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.967; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2013-11-29 18:03:13.967; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2013-11-29 18:03:13.967; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-ooxml-3.9.jar' to classloader
+INFO  - 2013-11-29 18:03:13.967; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xz-1.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.976; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-cell-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.977; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.978; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2013-11-29 18:03:13.978; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2013-11-29 18:03:13.980; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/carrot2-mini-3.8.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.981; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/attributes-binder-1.2.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.982; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/jackson-mapper-asl-1.7.4.jar' to classloader
+INFO  - 2013-11-29 18:03:13.982; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/jackson-core-asl-1.7.4.jar' to classloader
+INFO  - 2013-11-29 18:03:13.982; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2013-11-29 18:03:13.983; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-clustering-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.984; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2013-11-29 18:03:13.984; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2013-11-29 18:03:13.985; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-langid-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.986; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.986; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/commons-beanutils-1.7.0.jar' to classloader
+INFO  - 2013-11-29 18:03:13.986; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2013-11-29 18:03:13.986; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2013-11-29 18:03:13.987; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-velocity-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:03:14.151; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2013-11-29 18:03:14.156; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_46
+INFO  - 2013-11-29 18:03:14.285; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-11-29 18:03:14.293; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-11-29 18:03:14.369; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2013-11-29 18:03:14.914; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-11-29 18:03:15.012; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-11-29 18:03:15.021; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-11-29 18:03:15.147; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-11-29 18:03:15.155; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /var/www/dojo-solr/solr/example/./solr/collection1/, dataDir=logs/solr_index/
+INFO  - 2013-11-29 18:03:15.156; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2013-11-29 18:03:15.160; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2013-11-29 18:03:15.161; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2013-11-29 18:03:15.177; org.apache.solr.core.CachingDirectoryFactory; return new directory for /var/www/dojo-solr/solr/example/logs/solr_index
+INFO  - 2013-11-29 18:03:15.178; org.apache.solr.core.SolrCore; New index directory detected: old=null new=logs/solr_index/index/
+WARN  - 2013-11-29 18:03:15.178; org.apache.solr.core.SolrCore; [collection1] Solr index directory 'logs/solr_index/index' doesn't exist. Creating new index...
+INFO  - 2013-11-29 18:03:15.185; org.apache.solr.core.CachingDirectoryFactory; return new directory for /var/www/dojo-solr/solr/example/logs/solr_index/index
+INFO  - 2013-11-29 18:03:15.257; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/var/www/dojo-solr/solr/example/logs/solr_index/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1c8321c8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-11-29 18:03:15.260; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-11-29 18:03:15.267; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2013-11-29 18:03:15.268; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2013-11-29 18:03:15.268; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2013-11-29 18:03:15.272; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2013-11-29 18:03:15.272; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2013-11-29 18:03:15.388; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-11-29 18:03:15.404; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.405; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.408; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-11-29 18:03:15.409; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.414; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+WARN  - 2013-11-29 18:03:15.443; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+INFO  - 2013-11-29 18:03:15.444; org.apache.solr.core.RequestHandlers; created /update/json: solr.JsonUpdateRequestHandler
+WARN  - 2013-11-29 18:03:15.447; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+INFO  - 2013-11-29 18:03:15.448; org.apache.solr.core.RequestHandlers; created /update/csv: solr.CSVRequestHandler
+INFO  - 2013-11-29 18:03:15.448; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-11-29 18:03:15.449; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-11-29 18:03:15.449; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-11-29 18:03:15.450; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-11-29 18:03:15.450; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-11-29 18:03:15.450; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-11-29 18:03:15.452; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2013-11-29 18:03:15.455; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-11-29 18:03:15.458; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2013-11-29 18:03:15.468; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-11-29 18:03:15.468; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.468; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.468; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.468; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.469; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-11-29 18:03:15.469; org.apache.solr.core.RequestHandlers; created /js: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-11-29 18:03:15.469; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.469; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.469; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.470; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2013-11-29 18:03:15.488; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:03:15.492; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:03:15.493; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:03:15.579; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2013-11-29 18:03:15.580; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-11-29 18:03:15.585; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/var/www/dojo-solr/solr/example/logs/solr_index/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1c8321c8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-11-29 18:03:15.585; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-11-29 18:03:15.595; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@35e80f3a main
+INFO  - 2013-11-29 18:03:15.602; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2013-11-29 18:03:15.608; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2013-11-29 18:03:15.618; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2013-11-29 18:03:15.623; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /var/www/dojo-solr/solr/example/./solr/collection1/conf/elevate.xml
+INFO  - 2013-11-29 18:03:15.651; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2013-11-29 18:03:15.652; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@35e80f3a main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-11-29 18:03:15.653; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2013-11-29 18:03:15.660; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:03:15.661; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 18:03:15.702; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:03:15.722; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=65 
+INFO  - 2013-11-29 18:03:15.723; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2013-11-29 18:03:15.723; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2013-11-29 18:03:15.723; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2013-11-29 18:03:15.724; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@35e80f3a main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-11-29 18:03:19.318; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1385744599194&wt=json} status=0 QTime=2 
+INFO  - 2013-11-29 18:03:19.416; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1385744599227&wt=json} status=0 QTime=65 
+INFO  - 2013-11-29 18:03:22.661; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:03:22.667; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:03:23.703; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1629818866
+INFO  - 2013-11-29 18:03:23.711; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@79ce00b4
+INFO  - 2013-11-29 18:03:23.712; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-11-29 18:03:23.713; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-11-29 18:03:23.713; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-11-29 18:03:23.714; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-11-29 18:03:23.720; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2013-11-29 18:03:23.724; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-11-29 18:03:23.729; org.apache.solr.core.CachingDirectoryFactory; looking to close /var/www/dojo-solr/solr/example/logs/solr_index [CachedDir<<refCount=0;path=/var/www/dojo-solr/solr/example/logs/solr_index;done=false>>]
+INFO  - 2013-11-29 18:03:23.729; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /var/www/dojo-solr/solr/example/logs/solr_index
+INFO  - 2013-11-29 18:03:23.729; org.apache.solr.core.CachingDirectoryFactory; looking to close /var/www/dojo-solr/solr/example/logs/solr_index/index [CachedDir<<refCount=0;path=/var/www/dojo-solr/solr/example/logs/solr_index/index;done=false>>]
+INFO  - 2013-11-29 18:03:23.729; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /var/www/dojo-solr/solr/example/logs/solr_index/index
+INFO  - 2013-11-29 18:03:23.731; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:15:00.364; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 18:15:00.398; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 18:15:00.406; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 18:15:01.542; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 18:15:01.587; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 18:15:01.601; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 18:15:01.601; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /var/www/dojo-solr/solr
+INFO  - 2013-11-29 18:15:01.602; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/'
+INFO  - 2013-11-29 18:15:01.751; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/solr.xml
+INFO  - 2013-11-29 18:15:01.763; org.apache.solr.core.ConfigSolr; /var/www/dojo-solr/solr/solr.xml does not exist, using default configuration
+INFO  - 2013-11-29 18:15:01.936; org.apache.solr.core.CoreContainer; New CoreContainer 1635375188
+INFO  - 2013-11-29 18:15:01.936; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/var/www/dojo-solr/solr/]
+INFO  - 2013-11-29 18:15:01.948; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 18:15:01.949; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 18:15:01.949; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 18:15:01.950; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 18:15:01.953; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 18:15:01.953; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 18:15:01.953; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 18:15:01.953; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 18:15:01.954; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 18:15:02.216; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 18:15:02.217; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 18:15:02.270; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /var/www/dojo-solr/solr/collection1
+INFO  - 2013-11-29 18:15:02.270; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/collection1/'
+ERROR - 2013-11-29 18:15:02.285; org.apache.solr.core.CoreContainer; Failed to load file /var/www/dojo-solr/solr/collection1/solrconfig.xml
+ERROR - 2013-11-29 18:15:02.288; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+ERROR - 2013-11-29 18:15:02.292; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	... 10 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 18:15:02.294; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:15:02.294; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 18:15:02.324; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:15:08.730; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:15:08.732; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:15:09.738; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1635375188
+INFO  - 2013-11-29 18:15:09.744; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:19:25.603; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 18:19:25.637; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 18:19:25.645; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 18:19:26.723; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 18:19:26.761; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 18:19:26.774; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 18:19:26.775; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /var/www/dojo-solr/solr/example/..
+INFO  - 2013-11-29 18:19:26.775; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/../'
+INFO  - 2013-11-29 18:19:26.905; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/../solr.xml
+INFO  - 2013-11-29 18:19:26.911; org.apache.solr.core.ConfigSolr; /var/www/dojo-solr/solr/example/../solr.xml does not exist, using default configuration
+INFO  - 2013-11-29 18:19:27.037; org.apache.solr.core.CoreContainer; New CoreContainer 29494967
+INFO  - 2013-11-29 18:19:27.037; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/var/www/dojo-solr/solr/example/../]
+INFO  - 2013-11-29 18:19:27.048; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 18:19:27.048; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 18:19:27.048; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 18:19:27.048; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 18:19:27.050; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 18:19:27.050; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 18:19:27.050; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 18:19:27.051; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 18:19:27.051; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 18:19:27.280; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 18:19:27.281; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 18:19:27.329; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /var/www/dojo-solr/solr/example/../collection1
+INFO  - 2013-11-29 18:19:27.330; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/../collection1/'
+ERROR - 2013-11-29 18:19:27.345; org.apache.solr.core.CoreContainer; Failed to load file /var/www/dojo-solr/solr/example/../collection1/solrconfig.xml
+ERROR - 2013-11-29 18:19:27.347; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/../collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/../collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+ERROR - 2013-11-29 18:19:27.350; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/../collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	... 10 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/../collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 18:19:27.353; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:19:27.353; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 18:19:27.381; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:19:30.412; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:19:30.414; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:19:31.418; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=29494967
+INFO  - 2013-11-29 18:19:31.436; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:19:50.155; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 18:19:50.187; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 18:19:50.196; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 18:19:51.284; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 18:19:51.328; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 18:19:51.344; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 18:19:51.345; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:19:51.346; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/'
+INFO  - 2013-11-29 18:19:51.348; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-servlet-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.349; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-xml-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.349; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-http-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.349; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-continuation-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.349; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/servlet-api-3.0.jar' to classloader
+INFO  - 2013-11-29 18:19:51.350; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-server-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.350; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-webapp-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.350; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-jmx-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.353; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-security-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.353; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/ext/' to classloader
+INFO  - 2013-11-29 18:19:51.353; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-io-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.353; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-util-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.354; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/example/lib/jetty-deploy-8.1.10.v20130312.jar' to classloader
+INFO  - 2013-11-29 18:19:51.511; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/solr.xml
+INFO  - 2013-11-29 18:19:51.527; org.apache.solr.core.ConfigSolr; /var/www/dojo-solr/solr/example/solr.xml does not exist, using default configuration
+INFO  - 2013-11-29 18:19:51.652; org.apache.solr.core.CoreContainer; New CoreContainer 864950435
+INFO  - 2013-11-29 18:19:51.652; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/var/www/dojo-solr/solr/example/]
+INFO  - 2013-11-29 18:19:51.669; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 18:19:51.669; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 18:19:51.670; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 18:19:51.670; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 18:19:51.670; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 18:19:51.671; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 18:19:51.671; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 18:19:51.671; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 18:19:51.671; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 18:19:51.887; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 18:19:51.888; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 18:19:51.941; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /var/www/dojo-solr/solr/example/collection1
+INFO  - 2013-11-29 18:19:51.941; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/collection1/'
+ERROR - 2013-11-29 18:19:51.958; org.apache.solr.core.CoreContainer; Failed to load file /var/www/dojo-solr/solr/example/collection1/solrconfig.xml
+ERROR - 2013-11-29 18:19:51.959; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+ERROR - 2013-11-29 18:19:51.962; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:679)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /var/www/dojo-solr/solr/example/collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
+	... 10 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/var/www/dojo-solr/solr/example/collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
+	... 11 more
+
+INFO  - 2013-11-29 18:19:51.964; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:19:51.965; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 18:19:51.996; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:19:53.706; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:19:53.707; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:19:54.712; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=864950435
+INFO  - 2013-11-29 18:19:54.718; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:20:48.646; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 18:20:48.685; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 18:20:48.694; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 18:20:49.796; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 18:20:49.841; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 18:20:49.858; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 18:20:49.858; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /var/www/dojo-solr/solr/example/solr
+INFO  - 2013-11-29 18:20:49.859; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/solr/'
+INFO  - 2013-11-29 18:20:49.999; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/solr/solr.xml
+INFO  - 2013-11-29 18:20:50.140; org.apache.solr.core.ConfigSolrXml; Config-defined core root directory: 
+INFO  - 2013-11-29 18:20:50.152; org.apache.solr.core.CoreContainer; New CoreContainer 1821503493
+INFO  - 2013-11-29 18:20:50.152; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/var/www/dojo-solr/solr/example/solr/]
+INFO  - 2013-11-29 18:20:50.167; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 18:20:50.167; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 18:20:50.168; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 18:20:50.168; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 18:20:50.171; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 18:20:50.171; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 18:20:50.171; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 18:20:50.172; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 18:20:50.172; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 18:20:50.400; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 18:20:50.401; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 18:20:50.439; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /var/www/dojo-solr/solr/example/solr
+INFO  - 2013-11-29 18:20:50.456; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /var/www/dojo-solr/solr/example/solr/collection1/
+INFO  - 2013-11-29 18:20:50.456; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2013-11-29 18:20:50.459; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /var/www/dojo-solr/solr/example/solr/collection1
+INFO  - 2013-11-29 18:20:50.460; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/solr/collection1/'
+INFO  - 2013-11-29 18:20:50.535; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2013-11-29 18:20:50.537; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.538; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.538; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/fontbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.538; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2013-11-29 18:20:50.538; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/commons-compress-1.4.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.538; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tika-core-1.4.jar' to classloader
+INFO  - 2013-11-29 18:20:50.538; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/icu4j-49.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.539; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:50.539; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.539; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.539; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-scratchpad-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:50.539; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tika-parsers-1.4.jar' to classloader
+INFO  - 2013-11-29 18:20:50.539; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2013-11-29 18:20:50.540; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/pdfbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.540; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2013-11-29 18:20:50.540; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xmlbeans-2.3.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.540; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.540; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2013-11-29 18:20:50.540; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/jempbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.541; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.541; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/netcdf-4.2-min.jar' to classloader
+INFO  - 2013-11-29 18:20:50.541; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2013-11-29 18:20:50.541; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.541; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-ooxml-schemas-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:50.541; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.542; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2013-11-29 18:20:50.542; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2013-11-29 18:20:50.542; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-ooxml-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:50.542; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xz-1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.543; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-cell-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.544; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.548; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2013-11-29 18:20:50.548; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2013-11-29 18:20:50.548; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/carrot2-mini-3.8.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.548; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/attributes-binder-1.2.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.549; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/jackson-mapper-asl-1.7.4.jar' to classloader
+INFO  - 2013-11-29 18:20:50.549; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/jackson-core-asl-1.7.4.jar' to classloader
+INFO  - 2013-11-29 18:20:50.549; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2013-11-29 18:20:50.551; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-clustering-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.551; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2013-11-29 18:20:50.551; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2013-11-29 18:20:50.552; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-langid-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.553; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.553; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/commons-beanutils-1.7.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.553; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2013-11-29 18:20:50.553; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2013-11-29 18:20:50.554; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-velocity-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:50.694; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2013-11-29 18:20:50.700; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_46
+INFO  - 2013-11-29 18:20:50.809; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-11-29 18:20:50.815; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-11-29 18:20:50.897; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2013-11-29 18:20:51.493; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-11-29 18:20:51.589; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-11-29 18:20:51.598; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-11-29 18:20:51.736; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-11-29 18:20:51.743; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /var/www/dojo-solr/solr/example/solr/collection1/, dataDir=/var/www/dojo-solr/solr/example/solr/logs/solr_index/
+INFO  - 2013-11-29 18:20:51.744; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2013-11-29 18:20:51.749; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2013-11-29 18:20:51.749; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2013-11-29 18:20:51.767; org.apache.solr.core.CachingDirectoryFactory; return new directory for /var/www/dojo-solr/solr/example/solr/logs/solr_index
+INFO  - 2013-11-29 18:20:51.767; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/var/www/dojo-solr/solr/example/solr/logs/solr_index/index/
+WARN  - 2013-11-29 18:20:51.768; org.apache.solr.core.SolrCore; [collection1] Solr index directory '/var/www/dojo-solr/solr/example/solr/logs/solr_index/index' doesn't exist. Creating new index...
+INFO  - 2013-11-29 18:20:51.775; org.apache.solr.core.CachingDirectoryFactory; return new directory for /var/www/dojo-solr/solr/example/solr/logs/solr_index/index
+INFO  - 2013-11-29 18:20:51.833; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/var/www/dojo-solr/solr/example/solr/logs/solr_index/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@64f01d52; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-11-29 18:20:51.834; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-11-29 18:20:51.837; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2013-11-29 18:20:51.837; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2013-11-29 18:20:51.837; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2013-11-29 18:20:51.841; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2013-11-29 18:20:51.841; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2013-11-29 18:20:51.948; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-11-29 18:20:51.957; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.958; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.960; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-11-29 18:20:51.961; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.964; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+WARN  - 2013-11-29 18:20:51.976; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+INFO  - 2013-11-29 18:20:51.978; org.apache.solr.core.RequestHandlers; created /update/json: solr.JsonUpdateRequestHandler
+WARN  - 2013-11-29 18:20:51.979; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+INFO  - 2013-11-29 18:20:51.980; org.apache.solr.core.RequestHandlers; created /update/csv: solr.CSVRequestHandler
+INFO  - 2013-11-29 18:20:51.980; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-11-29 18:20:51.981; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-11-29 18:20:51.981; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-11-29 18:20:51.981; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-11-29 18:20:51.981; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-11-29 18:20:51.981; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-11-29 18:20:51.983; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2013-11-29 18:20:51.985; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-11-29 18:20:51.987; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2013-11-29 18:20:51.996; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-11-29 18:20:51.997; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.997; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.997; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.997; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.997; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-11-29 18:20:51.997; org.apache.solr.core.RequestHandlers; created /js: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-11-29 18:20:51.998; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.998; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.998; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:20:51.998; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2013-11-29 18:20:52.015; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:20:52.018; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:20:52.019; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:20:52.109; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2013-11-29 18:20:52.110; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-11-29 18:20:52.114; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/var/www/dojo-solr/solr/example/solr/logs/solr_index/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@64f01d52; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-11-29 18:20:52.115; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-11-29 18:20:52.121; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@2eb80f1c main
+INFO  - 2013-11-29 18:20:52.126; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2013-11-29 18:20:52.134; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2013-11-29 18:20:52.143; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2013-11-29 18:20:52.146; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /var/www/dojo-solr/solr/example/solr/collection1/conf/elevate.xml
+INFO  - 2013-11-29 18:20:52.173; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2013-11-29 18:20:52.174; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@2eb80f1c main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-11-29 18:20:52.174; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2013-11-29 18:20:52.178; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:20:52.178; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 18:20:52.223; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:20:52.239; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=64 
+INFO  - 2013-11-29 18:20:52.240; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2013-11-29 18:20:52.240; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2013-11-29 18:20:52.241; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2013-11-29 18:20:52.241; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@2eb80f1c main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-11-29 18:20:53.715; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:20:53.731; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:20:54.736; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1821503493
+INFO  - 2013-11-29 18:20:54.741; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@279977bd
+INFO  - 2013-11-29 18:20:54.742; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-11-29 18:20:54.744; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-11-29 18:20:54.745; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-11-29 18:20:54.745; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-11-29 18:20:54.769; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2013-11-29 18:20:54.778; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-11-29 18:20:54.780; org.apache.solr.core.CachingDirectoryFactory; looking to close /var/www/dojo-solr/solr/example/solr/logs/solr_index [CachedDir<<refCount=0;path=/var/www/dojo-solr/solr/example/solr/logs/solr_index;done=false>>]
+INFO  - 2013-11-29 18:20:54.780; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /var/www/dojo-solr/solr/example/solr/logs/solr_index
+INFO  - 2013-11-29 18:20:54.781; org.apache.solr.core.CachingDirectoryFactory; looking to close /var/www/dojo-solr/solr/example/solr/logs/solr_index/index [CachedDir<<refCount=0;path=/var/www/dojo-solr/solr/example/solr/logs/solr_index/index;done=false>>]
+INFO  - 2013-11-29 18:20:54.781; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /var/www/dojo-solr/solr/example/solr/logs/solr_index/index
+INFO  - 2013-11-29 18:20:54.782; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:20:57.429; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2013-11-29 18:20:57.463; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /var/www/dojo-solr/solr/example/contexts at interval 0
+INFO  - 2013-11-29 18:20:57.472; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /var/www/dojo-solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2013-11-29 18:20:58.641; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2013-11-29 18:20:58.686; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2013-11-29 18:20:58.704; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2013-11-29 18:20:58.705; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /var/www/dojo-solr/solr/example/solr
+INFO  - 2013-11-29 18:20:58.706; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/solr/'
+INFO  - 2013-11-29 18:20:58.881; org.apache.solr.core.ConfigSolr; Loading container configuration from /var/www/dojo-solr/solr/example/solr/solr.xml
+INFO  - 2013-11-29 18:20:59.000; org.apache.solr.core.ConfigSolrXml; Config-defined core root directory: 
+INFO  - 2013-11-29 18:20:59.011; org.apache.solr.core.CoreContainer; New CoreContainer 1821503493
+INFO  - 2013-11-29 18:20:59.011; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/var/www/dojo-solr/solr/example/solr/]
+INFO  - 2013-11-29 18:20:59.025; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2013-11-29 18:20:59.025; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2013-11-29 18:20:59.026; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2013-11-29 18:20:59.026; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2013-11-29 18:20:59.027; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2013-11-29 18:20:59.028; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2013-11-29 18:20:59.028; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2013-11-29 18:20:59.028; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2013-11-29 18:20:59.028; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2013-11-29 18:20:59.289; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2013-11-29 18:20:59.290; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2013-11-29 18:20:59.326; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /var/www/dojo-solr/solr/example/solr
+INFO  - 2013-11-29 18:20:59.341; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /var/www/dojo-solr/solr/example/solr/collection1/
+INFO  - 2013-11-29 18:20:59.342; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2013-11-29 18:20:59.345; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: /var/www/dojo-solr/solr/example/solr/collection1
+INFO  - 2013-11-29 18:20:59.346; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/var/www/dojo-solr/solr/example/solr/collection1/'
+INFO  - 2013-11-29 18:20:59.421; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2013-11-29 18:20:59.423; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.424; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.424; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/fontbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.424; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2013-11-29 18:20:59.424; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/commons-compress-1.4.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.425; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tika-core-1.4.jar' to classloader
+INFO  - 2013-11-29 18:20:59.425; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/icu4j-49.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.425; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:59.425; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.425; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.425; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-scratchpad-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:59.426; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/tika-parsers-1.4.jar' to classloader
+INFO  - 2013-11-29 18:20:59.426; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2013-11-29 18:20:59.426; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/pdfbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.426; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2013-11-29 18:20:59.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xmlbeans-2.3.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2013-11-29 18:20:59.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/jempbox-1.8.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.427; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/netcdf-4.2-min.jar' to classloader
+INFO  - 2013-11-29 18:20:59.428; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2013-11-29 18:20:59.428; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.428; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-ooxml-schemas-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:59.428; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.428; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2013-11-29 18:20:59.428; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2013-11-29 18:20:59.429; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/poi-ooxml-3.9.jar' to classloader
+INFO  - 2013-11-29 18:20:59.429; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/extraction/lib/xz-1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.430; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-cell-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.431; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.431; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2013-11-29 18:20:59.431; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2013-11-29 18:20:59.431; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/carrot2-mini-3.8.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.431; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/attributes-binder-1.2.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.432; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/jackson-mapper-asl-1.7.4.jar' to classloader
+INFO  - 2013-11-29 18:20:59.432; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/jackson-core-asl-1.7.4.jar' to classloader
+INFO  - 2013-11-29 18:20:59.432; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2013-11-29 18:20:59.433; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-clustering-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.433; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2013-11-29 18:20:59.433; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2013-11-29 18:20:59.438; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-langid-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.440; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.440; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/commons-beanutils-1.7.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.441; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2013-11-29 18:20:59.441; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2013-11-29 18:20:59.442; org.apache.solr.core.SolrResourceLoader; Adding 'file:/var/www/dojo-solr/solr/dist/solr-velocity-4.6.0.jar' to classloader
+INFO  - 2013-11-29 18:20:59.587; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2013-11-29 18:20:59.593; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_46
+INFO  - 2013-11-29 18:20:59.746; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2013-11-29 18:20:59.753; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2013-11-29 18:20:59.822; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2013-11-29 18:21:00.446; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2013-11-29 18:21:00.546; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-11-29 18:21:00.552; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2013-11-29 18:21:00.688; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2013-11-29 18:21:00.695; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /var/www/dojo-solr/solr/example/solr/collection1/, dataDir=/var/www/dojo-solr/solr/example/solr/logs/solr_index/
+INFO  - 2013-11-29 18:21:00.696; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2013-11-29 18:21:00.701; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2013-11-29 18:21:00.701; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2013-11-29 18:21:00.718; org.apache.solr.core.CachingDirectoryFactory; return new directory for /var/www/dojo-solr/solr/example/solr/logs/solr_index
+INFO  - 2013-11-29 18:21:00.718; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/var/www/dojo-solr/solr/example/solr/logs/solr_index/index/
+INFO  - 2013-11-29 18:21:00.719; org.apache.solr.core.CachingDirectoryFactory; return new directory for /var/www/dojo-solr/solr/example/solr/logs/solr_index/index
+INFO  - 2013-11-29 18:21:00.730; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2013-11-29 18:21:00.730; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2013-11-29 18:21:00.731; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2013-11-29 18:21:00.736; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2013-11-29 18:21:00.737; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2013-11-29 18:21:00.847; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2013-11-29 18:21:00.864; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.864; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.866; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2013-11-29 18:21:00.867; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.870; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+WARN  - 2013-11-29 18:21:00.885; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+INFO  - 2013-11-29 18:21:00.886; org.apache.solr.core.RequestHandlers; created /update/json: solr.JsonUpdateRequestHandler
+WARN  - 2013-11-29 18:21:00.890; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+INFO  - 2013-11-29 18:21:00.890; org.apache.solr.core.RequestHandlers; created /update/csv: solr.CSVRequestHandler
+INFO  - 2013-11-29 18:21:00.891; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-11-29 18:21:00.892; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2013-11-29 18:21:00.892; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2013-11-29 18:21:00.892; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2013-11-29 18:21:00.892; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-11-29 18:21:00.892; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2013-11-29 18:21:00.898; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2013-11-29 18:21:00.905; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2013-11-29 18:21:00.908; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2013-11-29 18:21:00.920; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2013-11-29 18:21:00.920; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.920; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.920; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.921; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.921; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-11-29 18:21:00.921; org.apache.solr.core.RequestHandlers; created /js: org.apache.solr.handler.js.JavaScriptRequestHandler
+INFO  - 2013-11-29 18:21:00.921; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.921; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.922; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.922; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2013-11-29 18:21:00.942; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:21:00.945; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:21:00.945; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2013-11-29 18:21:00.966; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2013-11-29 18:21:00.967; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2013-11-29 18:21:01.098; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/var/www/dojo-solr/solr/example/solr/logs/solr_index/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@746e96ff; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2013-11-29 18:21:01.099; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2013-11-29 18:21:01.108; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4a9b601d main
+INFO  - 2013-11-29 18:21:01.113; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2013-11-29 18:21:01.120; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2013-11-29 18:21:01.127; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2013-11-29 18:21:01.129; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /var/www/dojo-solr/solr/example/solr/collection1/conf/elevate.xml
+INFO  - 2013-11-29 18:21:01.157; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2013-11-29 18:21:01.158; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@4a9b601d main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-11-29 18:21:01.158; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2013-11-29 18:21:01.161; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/var/www/dojo-solr/solr/example
+INFO  - 2013-11-29 18:21:01.162; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2013-11-29 18:21:01.225; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=65 
+INFO  - 2013-11-29 18:21:01.225; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:21:01.227; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2013-11-29 18:21:01.227; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2013-11-29 18:21:01.227; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2013-11-29 18:21:01.227; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@4a9b601d main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2013-11-29 18:21:03.098; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1385745662959&wt=json} status=0 QTime=1 
+INFO  - 2013-11-29 18:21:03.153; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1385745662986&wt=json} status=0 QTime=31 
+INFO  - 2013-11-29 18:21:05.474; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/threads params={_=1385745665312&wt=json} status=0 QTime=25 
+INFO  - 2013-11-29 18:21:06.889; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8042
+INFO  - 2013-11-29 18:21:06.892; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+INFO  - 2013-11-29 18:21:07.917; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1821503493
+INFO  - 2013-11-29 18:21:07.918; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@279977bd
+INFO  - 2013-11-29 18:21:07.918; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2013-11-29 18:21:07.918; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2013-11-29 18:21:07.918; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2013-11-29 18:21:07.919; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2013-11-29 18:21:07.922; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2013-11-29 18:21:07.923; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2013-11-29 18:21:07.923; org.apache.solr.core.CachingDirectoryFactory; looking to close /var/www/dojo-solr/solr/example/solr/logs/solr_index/index [CachedDir<<refCount=0;path=/var/www/dojo-solr/solr/example/solr/logs/solr_index/index;done=false>>]
+INFO  - 2013-11-29 18:21:07.923; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /var/www/dojo-solr/solr/example/solr/logs/solr_index/index
+INFO  - 2013-11-29 18:21:07.923; org.apache.solr.core.CachingDirectoryFactory; looking to close /var/www/dojo-solr/solr/example/solr/logs/solr_index [CachedDir<<refCount=0;path=/var/www/dojo-solr/solr/example/solr/logs/solr_index;done=false>>]
+INFO  - 2013-11-29 18:21:07.924; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /var/www/dojo-solr/solr/example/solr/logs/solr_index
+INFO  - 2013-11-29 18:21:07.926; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/var/www/dojo-solr/solr/example/solr-webapp/webapp/},/var/www/dojo-solr/solr/example/webapps/solr.war
+WARN  - 2013-11-29 18:21:07.989; org.eclipse.jetty.util.thread.QueuedThreadPool; 1 threads could not be stopped
