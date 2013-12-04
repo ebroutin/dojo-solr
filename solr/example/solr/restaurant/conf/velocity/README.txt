@@ -5,7 +5,7 @@ Solr Search Velocity Templates
 A quick demo of using Solr using http://wiki.apache.org/solr/VelocityResponseWriter
 
 You typically access these templates via:
-	http://localhost:8983/solr/collection1/browse
+	http://localhost:8983/solr/restaurant/browse
 
 It's called "browse" because you can click around with your mouse
 without needing to type any search terms.  And of course it

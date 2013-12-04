@@ -45,7 +45,7 @@
     that avoids logging every request
 -->
 
-<schema name="example" version="1.5">
+<schema name="restaurant" version="1.5">
   <!-- attribute "name" is the name of this schema and is only used for display purposes.
        version="x.y" is Solr's version number for the schema syntax and 
        semantics.  It should not normally be changed by applications.
@@ -123,7 +123,6 @@
    <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" /> 
         
    <field name="sku" type="text_en_splitting_tight" indexed="true" stored="true" omitNorms="true"/>
-   <field name="name" type="text_general" indexed="true" stored="true"/>
    <field name="manu" type="text_general" indexed="true" stored="true" omitNorms="true"/>
    <field name="cat" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="features" type="text_general" indexed="true" stored="true" multiValued="true"/>
@@ -1130,5 +1129,24 @@
        <str name="paramkey">param value</str>
      </similarity>
     -->
+
+  <fields>
+    <field name="id_restaurant" type="int" indexed="true" stored="true" />
+    <field name="name" type="string" indexed="true" stored="true" />
+    <field name="address" type="text_general" indexed="true" stored="true" />
+    <field name="sale_type" type="int" indexed="true" stored="false" multiValued="true" />
+    <field name="menu" type="string" indexed="false" stored="true" />
+
+    <field name="sfl_all" type="text_general" indexed="true" stored="false" multiValued="true" required="false" />
+  </fields>
+
+  <uniqueKey>id_restaurant</uniqueKey>
+
+  <defaultSearchField>sfl_all</defaultSearchField>
+
+  <solrQueryParser defaultOperator="OR"/>
+
+  <copyField source="name" dest="sfl_all"/>
+  <copyField source="address" dest="sfl_all"/>
 
 </schema>

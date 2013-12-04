@@ -29,7 +29,7 @@
         }
       });
 
-      // http://localhost:8983/solr/collection1/terms?terms.fl=name&terms.prefix=i&terms.sort=count&wt=velocity&v.template=suggest
+      // http://localhost:8983/solr/restaurant/terms?terms.fl=name&terms.prefix=i&terms.sort=count&wt=velocity&v.template=suggest
     });
 
     </script>
