@@ -900,7 +900,7 @@
     <field name="id_restaurant" type="int" indexed="true" stored="true" />
     <field name="name" type="string" indexed="true" stored="true" />
     <field name="address" type="text_general" indexed="true" stored="true" />
-    <field name="sale_type" type="int" indexed="true" stored="false" multiValued="true" />
+    <field name="tag" type="int" indexed="true" stored="false" multiValued="true" />
     <field name="menu" type="string" indexed="false" stored="true" />
 
     <field name="sfl_all" type="text_general" indexed="true" stored="false" multiValued="true" required="false" />

@@ -1,0 +1,108 @@
+<add>
+	<doc>
+		<field name="id_restaurant">24</field>
+		<field name="name">Findi</field>
+		<field name="address">24, avenue George V, 75, Paris</field>
+		<field name="tag" update="set">43</field>
+		<field name="tag" update="set">11</field>
+		<field name="tag" update="set">312</field>
+		<field name="tag" update="set">314</field>
+		<field name="menu">Raviolis farcis au canard et boeuf, crème de champignons à l'huile de truffes</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">25</field>
+		<field name="name">Tante Marguerite</field>
+		<field name="address">5, rue de Bourgogne, 75, Paris</field>
+		<field name="tag" update="set">44</field>
+		<field name="tag" update="set">11</field>
+		<field name="tag" update="set">312</field>
+		<field name="menu">Lieu jaune de ligne vapeur au jus de persil, encornets au chorizo pommes de terre grenailles de l’île de Noirmoutier et citron confit</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">26</field>
+		<field name="name">Tante Louise</field>
+		<field name="address">41, rue Boissy d'Anglas, 75, Paris</field>
+		<field name="tag" update="set">312</field>
+		<field name="tag" update="set">314</field>
+		<field name="menu">Rôti de lapin farci, sauce moutarde et sauge, petits pois et pied-de-mouton</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">34</field>
+		<field name="name">La Truffière</field>
+		<field name="address">4 rue Blainville, 75, Paris</field>
+		<field name="tag" update="set">44</field>
+		<field name="tag" update="set">312</field>
+		<field name="menu">Pêche du jour cuite vapeur, riz vénéré, fumet tomaté et radis vinaigrés</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">36</field>
+		<field name="name">Le Café du Commerce</field>
+		<field name="address">51, rue du Commerce, 75, Paris</field>
+		<field name="tag" update="set">314</field>
+		<field name="tag" update="set">12</field>
+		<field name="menu">La pièce de boeuf exceptionnelle du Limousin de notre boucher Pascal (mini. 600g) pour 2</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">38</field>
+		<field name="name">Asian</field>
+		<field name="address">30, avenue George V, 75, Paris</field>
+		<field name="tag" update="set">312</field>
+		<field name="tag" update="set">314</field>
+		<field name="tag" update="set">315</field>
+		<field name="tag" update="set">323</field>
+		<field name="menu">Filet de Bar en feuille de bananier</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">64</field>
+		<field name="name">deVèz</field>
+		<field name="address">5, place de l'Alma, 75, Paris</field>
+		<field name="tag" update="set">311</field>
+		<field name="tag" update="set">312</field>
+		<field name="tag" update="set">314</field>
+		<field name="tag" update="set">315</field>
+		<field name="menu">Fricassée de poulet aux olives, ratatouille fraîche</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">85</field>
+		<field name="name">Miniatures</field>
+		<field name="address">31, avenue de Versailles, 75, Paris</field>
+		<field name="tag" update="set">43</field>
+		<field name="tag" update="set">12</field>
+		<field name="tag" update="set">314</field>
+		<field name="menu">Les noix de Saint-Jacques, wakame, beurre d'orange</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">90</field>
+		<field name="name">Alcazar Restaurant</field>
+		<field name="address">62, rue Mazarine, 75, Paris</field>
+		<field name="tag" update="set">41</field>
+		<field name="tag" update="set">2</field>
+		<field name="tag" update="set">4</field>
+		<field name="tag" update="set">10</field>
+		<field name="tag" update="set">312</field>
+		<field name="menu">Cabillaud coco, écrasé de pommes de terre, pamplemousse</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">91</field>
+		<field name="name">Alcazar - Bar Mezzanine</field>
+		<field name="address">62 Rue Mazarine, 75, Paris</field>
+		<field name="tag" update="set">41</field>
+		<field name="tag" update="set">2</field>
+		<field name="tag" update="set">4</field>
+		<field name="tag" update="set">10</field>
+		<field name="tag" update="set">312</field>
+		<field name="menu">Tataki de saumon au sel fumé</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">92</field>
+		<field name="name">Salon Privé</field>
+		<field name="address">62 rue Mazarine, 75, Paris</field>
+		<field name="tag" update="set">41</field>
+		<field name="tag" update="set">2</field>
+		<field name="tag" update="set">4</field>
+		<field name="tag" update="set">10</field>
+		<field name="tag" update="set">312</field>
+	</doc>
+	<commit/>
+	<optimize/>
+</add>
