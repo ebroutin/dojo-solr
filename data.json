@@ -1,3 +1,4 @@
+<!-- RESTAURANT -->
 <add>
 	<doc>
 		<field name="id_restaurant">24</field>
@@ -102,6 +103,52 @@
 		<field name="tag" update="set">4</field>
 		<field name="tag" update="set">10</field>
 		<field name="tag" update="set">312</field>
+	</doc>
+	<commit/>
+	<optimize/>
+</add>
+
+<!-- RESTAURANT_PUBLICATION -->
+<add>
+	<doc>
+		<field name="id_restaurant">24</field>
+		<field name="is_published">false</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">25</field>
+		<field name="is_published">false</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">26</field>
+		<field name="is_published">false</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">34</field>
+		<field name="is_published">true</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">36</field>
+		<field name="is_published">true</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">38</field>
+		<field name="is_published">true</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">64</field>
+		<field name="is_published">true</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">85</field>
+		<field name="is_published">true</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">90</field>
+		<field name="is_published">true</field>
+	</doc>
+	<doc>
+		<field name="id_restaurant">91</field>
+		<field name="is_published">true</field>
 	</doc>
 	<commit/>
 	<optimize/>

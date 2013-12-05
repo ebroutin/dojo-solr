@@ -99,7 +99,7 @@
        replication is in use, this should match the replication
        configuration.
     -->
-  <dataDir>${solr.data.dir:}/restaurant</dataDir>
+  <dataDir>${solr.data.dir:}/tag</dataDir>
 
 
   <!-- The DirectoryFactory to use for indexes.
@@ -641,13 +641,13 @@
           -->
       </arr>
     </listener>
-    <listener event="firstSearcher" class="solr.QuerySenderListener">
+    <!--<listener event="firstSearcher" class="solr.QuerySenderListener">
       <arr name="queries">
         <lst>
           <str name="q">static firstSearcher warming in solrconfig.xml</str>
         </lst>
       </arr>
-    </listener>
+    </listener>-->
 
     <!-- Use Cold Searcher
 
@@ -817,7 +817,7 @@
      <lst name="defaults">
        <str name="echoParams">explicit</str>
        <int name="rows">10</int>
-       <str name="df">sfl_all</str>
+       <str name="df">id_restaurant</str>
      </lst>
     <!-- In addition to defaults, "appends" params can be specified
          to identify values which should be appended to the list of
